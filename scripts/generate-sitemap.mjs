@@ -11,7 +11,7 @@ const root = path.join(__dirname, "..");
 const appDir = path.join(root, "src/app");
 const navigationFile = path.join(root, "src/lib/navigation.ts");
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://zmfamily.qa").replace(/\/+$/, "");
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://zmfamilyqatar.com").replace(/\/+$/, "");
 
 const SKIP_DIRS = new Set(["api"]);
 

@@ -10,6 +10,7 @@ import { Trust } from "@/components/site/Trust";
 import { Services } from "@/components/site/Services";
 import { RestaurantSection } from "@/components/site/RestaurantSection";
 import { Why } from "@/components/site/Why";
+import { Certifications } from "@/components/site/Certifications";
 import { Industries } from "@/components/site/Industries";
 import { Process } from "@/components/site/Process";
 import { Coverage } from "@/components/site/Coverage";
@@ -59,6 +60,7 @@ export default function HomePage() {
         <Services />
         <RestaurantSection />
         <Why />
+        <Certifications />
         <Industries />
         <Process />
         <Coverage />

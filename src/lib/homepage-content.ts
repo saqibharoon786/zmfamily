@@ -255,3 +255,45 @@ export const homeMarqueeItems = [
   "Facility Management",
   "Doha · Qatar",
 ];
+
+export const homeCertificationsCopy =
+  "Z M FAMILY operates to internationally recognised standards. Our ISO and HACCP certifications confirm that quality, safety, food hygiene, and environmental responsibility are built into how we deliver every service across Qatar.";
+
+export type HomeCertification = {
+  code: string;
+  title: string;
+  description: string;
+};
+
+export const homeCertifications: HomeCertification[] = [
+  {
+    code: "ISO 9001",
+    title: "Quality Management",
+    description:
+      "Structured processes for consistent service delivery, client satisfaction, and continuous improvement across all divisions.",
+  },
+  {
+    code: "ISO 45001",
+    title: "Occupational Health & Safety",
+    description:
+      "Workplace safety systems that protect our teams and clients during catering events, cleaning, facility work, and on-site operations.",
+  },
+  {
+    code: "ISO 22000",
+    title: "Food Safety Management",
+    description:
+      "End-to-end food safety controls for our catering and restaurant divisions — from sourcing and preparation to delivery and service.",
+  },
+  {
+    code: "ISO 14001",
+    title: "Environmental Management",
+    description:
+      "Responsible environmental practices in waste handling, resource use, and day-to-day operations across Qatar.",
+  },
+  {
+    code: "HACCP",
+    title: "Food Safety & Hygiene",
+    description:
+      "Hazard analysis and critical control points applied to kitchen, catering, and food-handling workflows for safe, hygienic meals.",
+  },
+];
