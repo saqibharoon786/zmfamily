@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 
 import { Logo } from "@/components/site/Logo";
+import { WhatsAppQrCode } from "@/components/ui/WhatsAppQrCode";
 import { allServiceGroups, mainNavLinks } from "@/lib/navigation";
 import { siteContact } from "@/lib/site-config";
 
@@ -10,7 +11,7 @@ export function Footer() {
     <footer className="border-t border-gold/10 bg-ink">
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr_1fr_1.2fr]">
-          {/* Brand */}
+          {/* Brand & Scanner */}
           <div className="flex flex-col items-start gap-5">
             <Logo variant="footer" />
             <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
@@ -19,6 +20,9 @@ export function Footer() {
               offices, hospitality venues, residential clients, and event organisers across Qatar
               through six coordinated divisions and a single point of contact.
             </p>
+
+            <WhatsAppQrCode variant="footer" className="mt-2 w-full max-w-sm" />
+
             <Link
               href="/contact"
               className="inline-flex rounded-full border border-gold/40 px-5 py-2.5 text-[0.68rem] tracking-[0.18em] text-gold uppercase transition-colors hover:bg-gold/10"

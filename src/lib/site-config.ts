@@ -28,6 +28,7 @@ export const siteContact = {
 
 export const contactFormServices = [
   "Catering Services",
+  "Restaurant & Dining Services",
   "Cleaning Services",
   "Laundry Services",
   "Real Estate",

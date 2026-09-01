@@ -1,9 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import catering from "@/assets/svc-catering.jpg";
+import restaurant from "@/assets/svc-restaurant.jpg";
+import cleaning from "@/assets/svc-cleaning.jpg";
 import realestate from "@/assets/svc-realestate.jpg";
 import laundry from "@/assets/svc-laundry.jpg";
 import car from "@/assets/svc-car.jpg";
@@ -14,7 +17,8 @@ import { Reveal, SectionHeading } from "./Reveal";
 
 const images: Record<string, typeof catering> = {
   catering,
-  cleaning: facilities,
+  restaurant,
+  cleaning,
   laundry,
   "rent-a-car": car,
   "real-estate": realestate,
@@ -22,6 +26,15 @@ const images: Record<string, typeof catering> = {
 };
 
 function ServiceCopy({ service }: { service: (typeof homeServices)[number] }) {
+  if (service.slug === "restaurant") {
+    return (
+      <>
+        Daily executive office lunch boxes, gourmet cloud kitchen food delivery, family feast
+        platters, and custom banquet dining prepared fresh by our culinary chefs in Doha.
+      </>
+    );
+  }
+
   if (service.slug === "catering") {
     return (
       <>
@@ -112,8 +125,8 @@ export function Services() {
       <div className="relative mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="Our Services"
-          fullTitle="Six Services. One Standard."
-          copy="Six specialist divisions under one integrated services company — each with its own team, one point of contact for you across Qatar."
+          fullTitle="Seven Services. One Standard."
+          copy="Seven specialist divisions under one integrated services company — each with its own team, one point of contact for you across Qatar."
         />
 
         <div className="mt-16 grid gap-6 md:grid-cols-2">
@@ -128,8 +141,8 @@ export function Services() {
                 >
                   <div className="grid md:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)]">
                     <div className="relative h-52 overflow-hidden md:h-full md:min-h-[18rem]">
-                      <img
-                        src={img.src}
+                      <Image
+                        src={img}
                         alt={s.imageAlt}
                         loading="lazy"
                         width={1024}

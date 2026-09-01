@@ -12,8 +12,11 @@ import {
   ArrowRight,
   MessageCircle,
   Sparkles,
+  UtensilsCrossed,
 } from "lucide-react";
 import heroCatering from "@/assets/hero-catering.jpg";
+import heroRestaurant from "@/assets/hero-restaurant.jpg";
+import heroCleaning from "@/assets/hero-cleaning.jpg";
 import heroRealEstate from "@/assets/hero-realestate.jpg";
 import heroLaundry from "@/assets/hero-laundry.jpg";
 import heroCar from "@/assets/hero-car.jpg";
@@ -29,9 +32,15 @@ const rotating = [
     alt: "Z M FAMILY catering setup for a corporate event in Doha, Qatar",
   },
   {
+    label: "Restaurant & Kitchen",
+    icon: UtensilsCrossed,
+    img: heroRestaurant,
+    alt: "Z M FAMILY restaurant and kitchen food delivery in Doha, Qatar",
+  },
+  {
     label: "Cleaning Services",
     icon: Sparkles,
-    img: heroFacilities,
+    img: heroCleaning,
     alt: "Professional office cleaning service by Z M FAMILY in Qatar",
   },
   {
@@ -121,7 +130,7 @@ export function Hero() {
             className="mt-6 font-display text-[2rem] leading-[1.08] font-medium tracking-tight text-white sm:text-[2.65rem] lg:text-[3.1rem] xl:text-[3.45rem]"
           >
             Integrated Services in Qatar.{" "}
-            <span className="text-gold-gradient">One Company. Six Specialist Services.</span>
+            <span className="text-gold-gradient">One Company. Seven Specialist Services.</span>
           </motion.h1>
 
           <motion.div
@@ -153,9 +162,9 @@ export function Hero() {
             className="mt-6 max-w-xl text-base leading-relaxed font-medium text-white/90 sm:text-[1.05rem]"
           >
             Z M FAMILY is an integrated services company in Qatar — providing professional catering,
-            cleaning, laundry, rent a car, real estate, and facility management under one roof.
-            Based in Doha, we give clients across Qatar a single point of contact instead of six
-            separate vendors. Planning a wedding that needs{" "}
+            restaurant & kitchen, cleaning, laundry, rent a car, real estate, and facility
+            management under one roof. Based in Doha, we give clients across Qatar a single point of
+            contact instead of seven separate vendors. Planning a wedding that needs{" "}
             <Link
               href="/services/catering"
               className="text-gold-soft underline-offset-4 hover:text-gold hover:underline"
@@ -170,6 +179,13 @@ export function Hero() {
               car hire
             </Link>
             , running an office that needs{" "}
+            <Link
+              href="/services/restaurant"
+              className="text-gold-soft underline-offset-4 hover:text-gold hover:underline"
+            >
+              daily meal delivery
+            </Link>
+            ,{" "}
             <Link
               href="/services/cleaning"
               className="text-gold-soft underline-offset-4 hover:text-gold hover:underline"

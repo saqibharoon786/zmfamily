@@ -8,6 +8,7 @@ import { TrustBar } from "@/components/site/TrustBar";
 import { Marquee } from "@/components/site/Marquee";
 import { Trust } from "@/components/site/Trust";
 import { Services } from "@/components/site/Services";
+import { RestaurantSection } from "@/components/site/RestaurantSection";
 import { Why } from "@/components/site/Why";
 import { Industries } from "@/components/site/Industries";
 import { Process } from "@/components/site/Process";
@@ -56,6 +57,7 @@ export default function HomePage() {
         <Marquee />
         <Trust />
         <Services />
+        <RestaurantSection />
         <Why />
         <Industries />
         <Process />

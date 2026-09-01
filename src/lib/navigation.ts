@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Building2, Car, ChefHat, Shirt, Sparkles, Wrench } from "lucide-react";
+import { Building2, Car, ChefHat, Shirt, Sparkles, UtensilsCrossed, Wrench } from "lucide-react";
 
 export type SubService = {
   label: string;
@@ -55,6 +55,39 @@ export const businessServicesColumn: NavColumn = {
           slug: "office-catering",
           href: "/services/catering/office-catering",
           description: "Daily office meals, breakfast spreads and team catering.",
+        },
+      ],
+    },
+    {
+      title: "Restaurant & Kitchen",
+      slug: "restaurant",
+      href: "/services/restaurant",
+      description: "Authentic dining, cloud kitchen delivery and executive meals in Qatar.",
+      icon: UtensilsCrossed,
+      subServices: [
+        {
+          label: "Executive Meal Delivery",
+          slug: "executive-meal-delivery",
+          href: "/services/restaurant/executive-meal-delivery",
+          description: "Daily office lunch boxes and executive dining delivered across Doha.",
+        },
+        {
+          label: "Cloud Kitchen & Takeaway",
+          slug: "cloud-kitchen-takeaway",
+          href: "/services/restaurant/cloud-kitchen-takeaway",
+          description: "Gourmet dishes cooked to order with fast delivery across Qatar.",
+        },
+        {
+          label: "Family Feast Platters",
+          slug: "family-feast-platters",
+          href: "/services/restaurant/family-feast-platters",
+          description: "Generous Arabic, Asian & International dining platters for celebrations.",
+        },
+        {
+          label: "Custom Dining Menus",
+          slug: "custom-dining-menus",
+          href: "/services/restaurant/custom-dining-menus",
+          description: "Personalized culinary menus for VIP dinners and private banquets.",
         },
       ],
     },
@@ -263,14 +296,18 @@ export function getSubService(
 }
 
 export function getAllServiceSlugs(): string[] {
-  return allServiceGroups.map((s) => s.slug);
+  return allServiceGroups
+    .map((s) => s.slug)
+    .filter((slug) => slug !== "catering" && slug !== "restaurant");
 }
 
 export function getAllSubServiceParams(): { slug: string; subslug: string }[] {
   return allServiceGroups.flatMap((service) =>
-    service.subServices.map((sub) => ({
-      slug: service.slug,
-      subslug: sub.slug,
-    })),
+    service.subServices
+      .filter((sub) => !(service.slug === "catering" && sub.slug === "corporate-catering"))
+      .map((sub) => ({
+        slug: service.slug,
+        subslug: sub.slug,
+      })),
   );
 }

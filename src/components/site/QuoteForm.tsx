@@ -6,6 +6,7 @@ import { useState, useTransition } from "react";
 import { toast } from "sonner";
 
 import { contactFormServices, siteContact, type ContactFormService } from "@/lib/site-config";
+import { WhatsAppQrCode } from "@/components/ui/WhatsAppQrCode";
 import { cn } from "@/lib/utils";
 
 /** FormSubmit AJAX — no SMTP, sends every field in the email. */
@@ -220,6 +221,8 @@ export function QuoteForm({ variant = "default", className }: QuoteFormProps) {
             </>
           )}
         </motion.button>
+
+        <WhatsAppQrCode variant="form" className="mt-3" />
 
         {isHero && (
           <p className="text-center text-[0.7rem] font-medium text-white/50">

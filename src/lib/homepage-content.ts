@@ -46,6 +46,23 @@ export const homeServices: HomeServiceBlock[] = [
   },
   {
     n: "02",
+    slug: "restaurant",
+    href: "/services/restaurant",
+    h3: "Restaurant & Kitchen Services in Qatar",
+    title: "Restaurant & Kitchen",
+    copy: "Our restaurant division operates daily executive office meal box deliveries, cloud kitchen food ordering, family feast platters, and custom dining menus cooked fresh daily by expert chefs across Doha.",
+    points: [
+      "Executive office meal boxes & daily lunch",
+      "Cloud kitchen & fast gourmet delivery",
+      "Family feast platters & weekend dining",
+      "Custom culinary menus & VIP banquets",
+      "Strict food hygiene & fresh ingredients",
+    ],
+    cta: "Explore restaurant & dining services",
+    imageAlt: "Z M FAMILY restaurant and kitchen food delivery in Qatar",
+  },
+  {
+    n: "03",
     slug: "cleaning",
     href: "/services/cleaning",
     h3: "Cleaning Services in Qatar",
@@ -62,7 +79,7 @@ export const homeServices: HomeServiceBlock[] = [
     imageAlt: "Professional cleaning service by Z M FAMILY in Doha, Qatar",
   },
   {
-    n: "03",
+    n: "04",
     slug: "laundry",
     href: "/services/laundry",
     h3: "Laundry Services in Qatar",
@@ -79,7 +96,7 @@ export const homeServices: HomeServiceBlock[] = [
     imageAlt: "Commercial laundry and linen service by Z M FAMILY in Qatar",
   },
   {
-    n: "04",
+    n: "05",
     slug: "rent-a-car",
     href: "/services/rent-a-car",
     h3: "Rent a Car in Qatar",
@@ -96,7 +113,7 @@ export const homeServices: HomeServiceBlock[] = [
     imageAlt: "Wedding and corporate car rental from Z M FAMILY in Qatar",
   },
   {
-    n: "05",
+    n: "06",
     slug: "real-estate",
     href: "/services/real-estate",
     h3: "Real Estate Services in Qatar",
@@ -113,7 +130,7 @@ export const homeServices: HomeServiceBlock[] = [
     imageAlt: "Real estate coordination support by Z M FAMILY in Doha",
   },
   {
-    n: "06",
+    n: "07",
     slug: "facility-management",
     href: "/services/facility-management",
     h3: "Facility Management in Qatar",
@@ -230,6 +247,7 @@ export const homeFaqs = [
 
 export const homeMarqueeItems = [
   "Catering Services",
+  "Restaurant & Kitchen",
   "Cleaning Services",
   "Laundry Services",
   "Rent a Car",
