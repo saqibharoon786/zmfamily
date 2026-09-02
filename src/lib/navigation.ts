@@ -304,7 +304,16 @@ export function getAllServiceSlugs(): string[] {
 export function getAllSubServiceParams(): { slug: string; subslug: string }[] {
   return allServiceGroups.flatMap((service) =>
     service.subServices
-      .filter((sub) => !(service.slug === "catering" && sub.slug === "corporate-catering"))
+      .filter(
+        (sub) =>
+          !(
+            service.slug === "catering" &&
+            (sub.slug === "corporate-catering" ||
+              sub.slug === "event-catering" ||
+              sub.slug === "wedding-catering" ||
+              sub.slug === "office-catering")
+          ),
+      )
       .map((sub) => ({
         slug: service.slug,
         subslug: sub.slug,
