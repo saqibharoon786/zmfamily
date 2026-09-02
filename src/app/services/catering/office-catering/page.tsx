@@ -257,8 +257,8 @@ export default function OfficeCateringPage() {
                 <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
                   If you&apos;re arranging lunch for a meeting, feeding a team during a training
                   day, or organizing catering for a staff event, the details matter — guest numbers,
-                  timing, menu and how the food fits into the working day. Z M FAMILY provides office
-                  catering across Doha and Qatar, planned around your team size and schedule.
+                  timing, menu and how the food fits into the working day. Z M FAMILY provides
+                  office catering across Doha and Qatar, planned around your team size and schedule.
                 </p>
 
                 <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -342,9 +342,9 @@ export default function OfficeCateringPage() {
               </h2>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground">
                 Office catering covers a wide range of everyday workplace situations — a working
-                lunch, refreshments for a meeting, breakfast before a training session, or catering for
-                a staff event — and each one has a different timing and format requirement. As part of
-                our wider{" "}
+                lunch, refreshments for a meeting, breakfast before a training session, or catering
+                for a staff event — and each one has a different timing and format requirement. As
+                part of our wider{" "}
                 <Link href="/services/catering/" className="link-gold">
                   catering services in Qatar
                 </Link>
@@ -375,9 +375,9 @@ export default function OfficeCateringPage() {
                   Office Lunch Catering
                 </h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">
-                  Working lunches need to be ready at a set time and scaled to the number of people in
-                  the room, whether that&apos;s a small team meeting or a larger office lunch. We plan
-                  quantities and timing around your headcount and schedule.
+                  Working lunches need to be ready at a set time and scaled to the number of people
+                  in the room, whether that&apos;s a small team meeting or a larger office lunch. We
+                  plan quantities and timing around your headcount and schedule.
                 </p>
               </div>
 
@@ -390,9 +390,9 @@ export default function OfficeCateringPage() {
                   Corporate Meeting Catering
                 </h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">
-                  Client meetings, internal meetings and executive meetings often need light catering or
-                  refreshments alongside the meeting itself. We plan this around your meeting time so
-                  it&apos;s ready without disrupting the agenda.
+                  Client meetings, internal meetings and executive meetings often need light
+                  catering or refreshments alongside the meeting itself. We plan this around your
+                  meeting time so it&apos;s ready without disrupting the agenda.
                 </p>
               </div>
 
@@ -405,8 +405,8 @@ export default function OfficeCateringPage() {
                   Breakfast & Morning Meeting Catering
                 </h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">
-                  For early meetings, training sessions or events that start in the morning, breakfast
-                  catering can be arranged around your start time and guest count.
+                  For early meetings, training sessions or events that start in the morning,
+                  breakfast catering can be arranged around your start time and guest count.
                 </p>
               </div>
 
@@ -434,10 +434,10 @@ export default function OfficeCateringPage() {
                   Recurring Office Catering
                 </h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">
-                  Some businesses need catering more than once — a regular team lunch, or catering for a
-                  recurring meeting. This can be discussed directly with our team; we don&apos;t publish a
-                  fixed program or schedule here, so share what you&apos;re looking for and we&apos;ll
-                  confirm what can be arranged.
+                  Some businesses need catering more than once — a regular team lunch, or catering
+                  for a recurring meeting. This can be discussed directly with our team; we
+                  don&apos;t publish a fixed program or schedule here, so share what you&apos;re
+                  looking for and we&apos;ll confirm what can be arranged.
                 </p>
                 <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
                   For larger, one-off business events such as conferences, seminars or company
@@ -467,9 +467,12 @@ export default function OfficeCateringPage() {
 
             <div className="mt-12 grid gap-6 md:grid-cols-3">
               <div className="rounded-2xl border border-border bg-card p-7 shadow-lux">
-                <h3 className="font-display text-xl font-medium text-foreground">Buffet Catering</h3>
+                <h3 className="font-display text-xl font-medium text-foreground">
+                  Buffet Catering
+                </h3>
                 <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                  Suited to larger staff events or office celebrations where guests serve themselves.
+                  Suited to larger staff events or office celebrations where guests serve
+                  themselves.
                 </p>
               </div>
 
@@ -494,9 +497,10 @@ export default function OfficeCateringPage() {
 
             <div className="mt-10 rounded-2xl border border-gold/20 bg-ink/70 p-6 text-center shadow-lux">
               <p className="text-xs leading-relaxed text-muted-foreground sm:text-sm">
-                We don&apos;t currently offer individually portioned meal delivery or a separate staffed
-                live-station format for office bookings — if your event needs something specific, tell us
-                the details when you request a quote and we&apos;ll confirm what&apos;s possible.
+                We don&apos;t currently offer individually portioned meal delivery or a separate
+                staffed live-station format for office bookings — if your event needs something
+                specific, tell us the details when you request a quote and we&apos;ll confirm
+                what&apos;s possible.
               </p>
             </div>
           </div>
@@ -567,8 +571,8 @@ export default function OfficeCateringPage() {
                 </ul>
 
                 <p className="mt-6 text-sm leading-relaxed text-muted-foreground font-medium">
-                  Share these details when you request a quote and we&apos;ll put together a plan that
-                  fits your office, not a generic package.
+                  Share these details when you request a quote and we&apos;ll put together a plan
+                  that fits your office, not a generic package.
                 </p>
               </div>
 
@@ -586,8 +590,8 @@ export default function OfficeCateringPage() {
                       Reliable Workplace Delivery & Setup
                     </p>
                     <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
-                      Our Doha catering team ensures timely arrival and professional setup for your office
-                      meetings, lunches, and staff events across Qatar.
+                      Our Doha catering team ensures timely arrival and professional setup for your
+                      office meetings, lunches, and staff events across Qatar.
                     </p>
                   </div>
                 </div>
@@ -607,16 +611,16 @@ export default function OfficeCateringPage() {
 
               <ul className="mt-8 grid gap-4 sm:grid-cols-2">
                 <li className="rounded-xl border border-border/60 bg-ink/50 p-5">
-                  <strong className="text-foreground font-semibold">Business meetings:</strong> Light
-                  catering or refreshments planned around your meeting schedule.
+                  <strong className="text-foreground font-semibold">Business meetings:</strong>{" "}
+                  Light catering or refreshments planned around your meeting schedule.
                 </li>
                 <li className="rounded-xl border border-border/60 bg-ink/50 p-5">
-                  <strong className="text-foreground font-semibold">Client meetings:</strong> Catering
-                  that fits discreetly around the meeting rather than dominating it.
+                  <strong className="text-foreground font-semibold">Client meetings:</strong>{" "}
+                  Catering that fits discreetly around the meeting rather than dominating it.
                 </li>
                 <li className="rounded-xl border border-border/60 bg-ink/50 p-5">
-                  <strong className="text-foreground font-semibold">Staff lunches:</strong> Regular or
-                  one-off, scaled to your team size.
+                  <strong className="text-foreground font-semibold">Staff lunches:</strong> Regular
+                  or one-off, scaled to your team size.
                 </li>
                 <li className="rounded-xl border border-border/60 bg-ink/50 p-5">
                   <strong className="text-foreground font-semibold">Corporate celebrations:</strong>{" "}
@@ -659,8 +663,8 @@ export default function OfficeCateringPage() {
                     01. Tell Us About Your Office Event
                   </h3>
                   <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                    Share your event type, date, guest count and office location with our team by phone,
-                    WhatsApp or the quote form below.
+                    Share your event type, date, guest count and office location with our team by
+                    phone, WhatsApp or the quote form below.
                   </p>
                 </div>
               </div>
@@ -672,8 +676,8 @@ export default function OfficeCateringPage() {
                     02. Discuss Menu & Requirements
                   </h3>
                   <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                    We talk through catering format, timing and any dietary requirements, so the plan
-                    fits your event.
+                    We talk through catering format, timing and any dietary requirements, so the
+                    plan fits your event.
                   </p>
                 </div>
               </div>
@@ -750,7 +754,8 @@ export default function OfficeCateringPage() {
                   Event-Specific Planning
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  Menus and timing are planned around your office schedule rather than a fixed package.
+                  Menus and timing are planned around your office schedule rather than a fixed
+                  package.
                 </p>
               </div>
 
@@ -774,7 +779,8 @@ export default function OfficeCateringPage() {
                   Clear Communication
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  You know what&apos;s confirmed and what&apos;s still being discussed at each stage.
+                  You know what&apos;s confirmed and what&apos;s still being discussed at each
+                  stage.
                 </p>
               </div>
 
